@@ -1,41 +1,45 @@
-# Website
+# Skroll Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Simple Docusaurus site for the Skroll project.
 
-## Installation
+## Requirements
+
+- Node.js 22+
+- pnpm 10+
+
+## Quick Start
 
 ```bash
-yarn
+pnpm install
+pnpm start
 ```
 
-## Local Development
-
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This starts the dev server and opens the site. Edits hot‑reload.
 
 ## Build
 
 ```bash
-yarn build
+pnpm build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Outputs static files to `build/`.
 
-## Deployment
-
-Using SSH:
+## Preview Production Build
 
 ```bash
-USE_SSH=true yarn deploy
+pnpm serve
 ```
 
-Not using SSH:
+Serves the contents of `build/` locally.
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## Scripts
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- `pnpm start`: Run dev server
+- `pnpm build`: Generate static site
+- `pnpm serve`: Preview the production build
+- `pnpm clear`: Clear Docusaurus cache
+
+## Troubleshooting
+
+- Stale build: run `pnpm clear` then `pnpm start`
+- Port in use: set `PORT=3001 pnpm start`
