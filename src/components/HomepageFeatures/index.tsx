@@ -1,6 +1,6 @@
-import type { ReactNode } from "react";
-import clsx from "clsx";
 import Heading from "@theme/Heading";
+import clsx from "clsx";
+import type { ReactNode } from "react";
 import styles from "./styles.module.css";
 
 type FeatureItem = {
@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Write Branching Stories",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/undraw_mind-map_i9bv.svg").default,
     description: (
       <>
         Create immersive, choice-driven narratives with a clean authoring
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Play Anywhere",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/undraw_progressive-app_9517.svg").default,
     description: (
       <>
         Skroll runs on Windows, macOS, Linux, iOS, and Android, powered by Tauri
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Open Source Core",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/undraw_open-source_g069.svg").default,
     description: (
       <>
         Built in Rust for performance and reliability. The core engine is fully
@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({ title, Svg, description }: Readonly<FeatureItem>) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
