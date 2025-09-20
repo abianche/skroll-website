@@ -28,12 +28,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Open Source Core',
     Svg: require('@site/static/img/undraw_open-source_g069.svg').default,
-    description: (
-      <>
-        Built in Rust for performance and reliability. The core engine is fully open source —
-        extend, fork, or contribute.
-      </>
-    ),
+    description: <>The core engine is fully open source — extend, fork, or contribute.</>,
   },
 ];
 
