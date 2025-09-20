@@ -23,12 +23,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Play Anywhere',
     Svg: require('@site/static/img/undraw_progressive-app_9517.svg').default,
-    description: (
-      <>
-        Skroll runs on Windows, macOS, Linux, iOS, and Android, powered by Tauri & React for a
-        lightweight footprint.
-      </>
-    ),
+    description: <>Skroll runs on Windows, macOS and Linux, powered by Electron.</>,
   },
   {
     title: 'Open Source Core',
