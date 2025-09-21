@@ -2,6 +2,10 @@
 
 Simple Docusaurus site for the Skroll project.
 
+## Branding
+
+- UnDraw illustration accent color: `#2e8555`
+
 ## Requirements
 
 - Node.js 22+
