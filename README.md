@@ -1,3 +1,6 @@
+[![Deploy](https://github.com/abianche/skroll-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/abianche/skroll-website/actions/workflows/deploy.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=abianche_skroll-website&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=abianche_skroll-website)
+
 # Skroll Website
 
 Simple Docusaurus site for the Skroll project.
