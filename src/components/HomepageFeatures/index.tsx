@@ -16,8 +16,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_mind-map_i9bv.svg').default,
     description: (
       <>
-        Create immersive, choice-driven narratives with a clean authoring experience inspired by
-        Inky, focused on fast iteration and clarity.
+        Create immersive, choice-driven narratives with a clean authoring experience, focused on
+        fast iteration and clarity.
       </>
     ),
   },
